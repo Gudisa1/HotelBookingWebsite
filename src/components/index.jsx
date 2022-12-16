@@ -1,0 +1,9 @@
+export { default as About } from "./about/About";
+export { default as Company } from "./company/Company";
+export { default as Facility } from "./facility/Facility";
+export { default as Footer } from "./footer/Footer";
+export { default as Header } from "./header/Header";
+export { default as Hotels } from "./hotels/Hotels";
+export { default as Location } from "./location/Location";
+export { default as Navbar } from "./navbar/Navbar";
+export { default as Testimonial } from "./testimonial/Testimonial";
