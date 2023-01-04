@@ -3,32 +3,36 @@ import "./navbar.css";
 import logo from "../../assets/logo.png";
 const Navbar = () => {
   return (
-    <section className="nav">
-      <div className="logo-container">
-        <img src={logo} alt="Company Logo" className="logo-picture" />
-        <p>Hotela</p>
+    <nav className="nav">
+      <div className="logo">
+        <img src={logo} alt="Company Logo" className="logo-img" />
+        <p className="logo-name">Hotelo</p>
       </div>
-      <div className="links">
-        <ul className="links-container">
-          <li>
-            <a href="#">Booking</a>
-          </li>
-          <li>
-            <a href="#">Facility</a>
-          </li>
-          <li>
-            <a href="#">About Us</a>
-          </li>
-          <li>
-            <a href="#">Location</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
+      <div>
+        <ul className="nav-links">
+          <a href="#">
+            <li className="nav-single-link">Booking</li>
+          </a>
+          <a href="#">
+            <li className="nav-single-link">Facilities</li>
+          </a>
+          <a href="#">
+            <li className="nav-single-link">About Us</li>
+          </a>
+          <a href="#">
+            <li className="nav-single-link">Location</li>
+          </a>
+          <a href="#">
+            <li className="nav-single-link">Contact</li>
+          </a>
         </ul>
       </div>
-      <button className="login-btn">Login</button>
-    </section>
+      <div className="login">
+        <a href="#">
+          <button className="btn-login">Login</button>
+        </a>
+      </div>
+    </nav>
   );
 };
 
