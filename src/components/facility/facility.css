@@ -1,0 +1,112 @@
+.facility {
+  display: flex;
+  flex-direction: row;
+  width: 100;
+}
+.facility-icons {
+  display: grid;
+  background-color: #ffff;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 120px 20px 0 120px;
+  position: relative;
+}
+.facility-icons-layout {
+  background: #ffffff;
+  height: 180px;
+  width: 193px;
+  border-radius: 8px;
+  position: relative;
+  margin-left: 24px;
+  margin-bottom: 24px;
+  margin-right: 24px;
+  border: 1px solid #e8e8e8;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px rgba(60, 64, 67, 0.3) 0px
+    1px 3px 1px;
+  /* box-shadow: 0 12px 6px rgba(0, 0, 0, 0.3); */
+}
+.facility-icon {
+  position: absolute;
+  left: 35%;
+  right: 0%;
+  top: 16.21%;
+  width: 40px;
+  height: 30.23px;
+  color: #24ab70;
+}
+.icon-description {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 48.8px;
+  /* identical to box height, or 175% */
+
+  color: #222222;
+}
+.facility-desc {
+  width: 411px;
+  height: 310px;
+}
+.heading-secondary {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  /* identical to box height, or 150% */
+  color: #000000;
+  margin-left: 20px;
+  margin-top: 80px;
+}
+.facility-desc {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  color: #555555;
+  position: relative;
+}
+.btn-contact {
+  background: #24ab70;
+  border-radius: 35px;
+  border: none;
+  width: 164px;
+  height: 56px;
+  padding: 16px 32px 16px 32px;
+  line-height: 1.2;
+
+  /* /* identical to box height, or 175% * */
+  color: #24ab70;
+
+  position: absolute;
+  left: 8.52%;
+  right: 1.95%;
+  top: 144.33%;
+  bottom: 81.4%;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.btn-contact:hover {
+  background-color: #2c974b;
+  cursor: pointer;
+}
+.btn-contact:focus {
+  box-shadow: rgba(46, 164, 79, 0.4);
+  outline: none;
+}

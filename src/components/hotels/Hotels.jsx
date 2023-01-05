@@ -38,7 +38,7 @@ const Hotels = () => {
           <div className="hotels-cart">
             <img src={hotel2} alt="Hotel Picture" className="hotel-img" />
             <p className="hotel-location">London NW8 7JT England</p>
-            <h3 className="heading-teritary">Danubis Hotel Regents Park</h3>
+            <h3 className="heading-teritary">The Resident Soho</h3>
             <span className="hotel-price">$200 per Night</span>{" "}
             <span className="icon-rating">
               <FcRating />
@@ -52,7 +52,7 @@ const Hotels = () => {
           <div className="hotels-cart">
             <img src={hotel3} alt="Hotel Picture" className="hotel-img" />
             <p className="hotel-location">London NW8 7JT England</p>
-            <h3 className="heading-teritary">Danubis Hotel Regents Park</h3>
+            <h3 className="heading-teritary">London Bridge Hotel</h3>
             <span className="hotel-price">$200 per Night</span>{" "}
             <span className="icon-rating">
               <FcRating />
