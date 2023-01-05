@@ -27,41 +27,31 @@ const Header = () => {
         <img src={hotel} alt="Hotel Hero Image" className="header-img-hero" />
       </div>
       <div className="header-details">
-        <div className="detail1">
-          <span className="detail-icon">
-            <BiLocationPlus />
-          </span>{" "}
-          <span className="detail-p">Location</span>
-          <p>United States</p>
+        <div className="header-details-description">
+          <BiLocationPlus className="icon-box" />
+          <p className="icon-desc">Location</p>
+          <p className="icon-p">United States</p>
         </div>
-        <div className="detail2">
-          <span className="detail-icon">
-            <BsFillCalendar2CheckFill />
-          </span>{" "}
-          <span className="detail-p">Chack in</span>
-          <p>10 jun 2021</p>
+        <div className="header-details-description">
+          <BsFillCalendar2CheckFill className="icon-box" />
+          <p className="icon-desc">Chack in</p>
+          <p className="icon-p">10 jun 2021</p>
         </div>
-        <div className="detail3">
-          <span className="detail-icon">
-            <BsFillCalendar2CheckFill />
-          </span>{" "}
-          <span className="detail-p">Chak out</span>
-          <p>15 jun 2021</p>
+        <div className="header-details-description">
+          <BsFillCalendar2CheckFill className="icon-box" />
+          <p className="icon-desc">Chak Out</p>
+          <p className="icon-p">15 jun 2021</p>
         </div>
-        <div className="detail4">
-          <span className="detail-icon">
-            <BsFillPersonFill />
-          </span>{" "}
-          <span className="detail-p">Rooms for</span>
-          <p>1 room 2 guests</p>
+        <div className="header-details-description">
+          <BiLocationPlus className="icon-box" />
+          <p className="icon-desc">Rooms for</p>
+          <p className="icon-p">1 room 2 guests</p>
         </div>
-        <div className="detail-button">
+
+        <div className="btn-container">
+          <AiOutlineSearch className="icon-search" />
           <a href="#">
-            <button className="btn-detail">
-              <span className="search">
-                <AiOutlineSearch /> Search
-              </span>
-            </button>
+            <button className="btn-search">Search</button>
           </a>
         </div>
       </div>
